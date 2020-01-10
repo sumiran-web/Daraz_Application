@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AdminAddNewProduct  extends AppCompatActivity
+public class AdminAddNewProductActivity extends AppCompatActivity
 {
     private String CategoryName;
     private Button AddNewProductButton;
