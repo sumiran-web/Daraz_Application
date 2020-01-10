@@ -52,7 +52,7 @@
         android:id="@+id/main_join_now_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/main_login_btn"
+        android:layout_below="@+id/main_login_btn"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
@@ -61,8 +61,7 @@
         android:textAllCaps="false"
         android:textSize="18sp"
         android:text="Join Now"
-        android:textColor="#ffff"
-        />
+        android:textColor="#ffff" />
 
 
 </RelativeLayout>

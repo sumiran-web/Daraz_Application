@@ -1,47 +1,16 @@
 package com.example.daraz_application.Prevalent;
 
+import com.example.daraz_application.Model.Users;
+
 public class Prevalent {
-    // Similar characters being used as they are in firebase as well
-    private String name,phone,password;
+    // From this class we will be working on the forget password
+    // Remember me
+    // Type of features
+    // This package is created to get the current user who are using the app
 
-    // Creating constructor
-    public  Users()
-    {
+    private static Users currentOnlineUser;
 
-    }
-
-    public Users(String name, String phone, String password) {
-        this.name = name;
-        this.phone = phone;
-        this.password = password;
-    }
-
-    // Now generating getters and setters for all three dt
-
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
+    // The below code is written to store the user phone i.e. the unqiue key to use this app contains all information of the user
+    public static final String UserPhoneKey = "UserPhone";
+    public static final String UserPasswordKey = "UserPassword";
 }
-
-
